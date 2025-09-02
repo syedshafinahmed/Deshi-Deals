@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Deshi Deals</title>
 </head>
@@ -36,7 +38,7 @@
     </section>
 
     <section class="flex container mx-auto mt-5 md:mt-8 p-5 md:p-0 gap-5 md:gap-10">
-        <div class="border-2 border-green-700 w-3/4">
+        <div class="w-3/4">
             <div>
                 <div>
                     <h1 class="font-semibold text-xl md:text-4xl">Kitchenware</h1>
@@ -117,10 +119,14 @@
                     </div>
                 </div>
             </div>
-            <div></div>
-            <div></div>
         </div>
-        <div class="border-2 border-green-700 w-1/4">1</div>
+        <div class="border-2 border-green-700 w-1/4">
+            <h1 class="text-xs md:text-2xl font-bold">Have a coupon?</h1>
+            <div class="flex flex-col md:flex-row p-5">
+                <input type="text" placeholder="   coupon code" id="" class="border-none">
+                <button class="btn bg-[#E527B2] text-xs md:text-base text-white">Apply</button>
+            </div>
+        </div>
     </section>
 </body>
 
