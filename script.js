@@ -158,6 +158,8 @@ document.getElementById("f3").addEventListener("click", function () {
 document.getElementById("clear").addEventListener("click", function (){
     const dN = document.getElementById("sidebar");
     dN.innerHTML = "";
+    document.getElementById("quantity").innerText = 0;
+    document.getElementById("total").innerText = 0;
 })
 document.getElementById("purchase").addEventListener("click", function (){
     if((quantityCount !== 0) && (totalCount !== 0)){
