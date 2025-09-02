@@ -159,3 +159,11 @@ document.getElementById("clear").addEventListener("click", function (){
     const dN = document.getElementById("sidebar");
     dN.innerHTML = "";
 })
+document.getElementById("purchase").addEventListener("click", function (){
+    if((quantityCount !== 0) && (totalCount !== 0)){
+        alert("Purchased Successfully!!");
+    }
+    else{
+        alert("Nothing in Cart");
+    }
+})
