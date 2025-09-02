@@ -1,3 +1,5 @@
+let quantityCount = 0;
+let totalCount = 0;
 document.getElementById("k1").addEventListener("click", function () {
     const div = document.createElement("div");
     div.className = "sidebar";
@@ -10,6 +12,10 @@ document.getElementById("k1").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 3900;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("k2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -23,6 +29,10 @@ document.getElementById("k2").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 2500;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("k3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -36,6 +46,10 @@ document.getElementById("k3").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 4900;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("s1").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -49,6 +63,10 @@ document.getElementById("s1").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 490;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("s2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -62,6 +80,10 @@ document.getElementById("s2").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 6900;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("s3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -75,6 +97,10 @@ document.getElementById("s3").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 4290;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("f1").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -88,6 +114,10 @@ document.getElementById("f1").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 7800;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("f2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -101,6 +131,10 @@ document.getElementById("f2").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 2350;
+    document.getElementById("total").innerText = totalCount;
 })
 document.getElementById("f3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -114,6 +148,10 @@ document.getElementById("f3").addEventListener("click", function () {
                 </div>
             </div>`;
     document.getElementById("sidebar").appendChild(div);
+    quantityCount++;
+    document.getElementById("quantity").innerText = quantityCount;
+    totalCount += 1900;
+    document.getElementById("total").innerText = totalCount;
 })
 
 
