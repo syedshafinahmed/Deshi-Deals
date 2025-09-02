@@ -9,7 +9,7 @@ document.getElementById("k1").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">3900 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("k2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -22,7 +22,7 @@ document.getElementById("k2").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">2500 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("k3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -35,7 +35,7 @@ document.getElementById("k3").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">4900 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("s1").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -48,7 +48,7 @@ document.getElementById("s1").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">490 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("s2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -61,7 +61,7 @@ document.getElementById("s2").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">6900 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("s3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -74,7 +74,7 @@ document.getElementById("s3").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">4290 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("f1").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -87,7 +87,7 @@ document.getElementById("f1").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">7800 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("f2").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -100,7 +100,7 @@ document.getElementById("f2").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">2350 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
 })
 document.getElementById("f3").addEventListener("click", function () {
     const div = document.createElement("div");
@@ -113,5 +113,11 @@ document.getElementById("f3").addEventListener("click", function () {
                     <p class="text-xs md:text-lg font-medium text-center md:text-left">1900 Taka</p>
                 </div>
             </div>`;
-    document.getElementById("sidebar-parent").appendChild(div);
+    document.getElementById("sidebar").appendChild(div);
+})
+
+
+document.getElementById("clear").addEventListener("click", function (){
+    const dN = document.getElementById("sidebar");
+    dN.innerHTML = "";
 })
